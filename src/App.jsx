@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useFetchApi } from "./hooks/useFetchApi"
 import Hero from './components/Hero'
-import Search from './components/search'
+import Search from './components/search'  
 import LocationInfo from './components/LocationInfo'
 import ResidentsList from './components/ResidentsList'
 import { getRandomNumber } from './utils'
