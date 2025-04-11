@@ -1,0 +1,22 @@
+.hero {
+    /*background: linear-gradient(135deg, var(--primary), var(--primary-dark));*/
+    background-image: url(./BannerRick.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 7rem 3rem;
+    text-align: center;
+    border-radius: var(--radius);
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }

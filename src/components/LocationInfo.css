@@ -1,0 +1,41 @@
+.location-info {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: var(--shadow);
+  animation: fadeIn 0.5s ease-out;
+
+}
+
+.location-title {
+  color: var(--primary-dark);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.location-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-item {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(90, 228, 255, 0.685);
+}
+
+.detail-label {
+  font-weight: bold;
+  color: var(--primary);
+  margin-right: 8px;
+}
+
+/* Efecto hover opcional */
+.detail-item:hover {
+  background: rgba(66, 180, 203, 0.479);
+}
